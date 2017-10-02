@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    
+    
+    
+    <head>
+            <meta  charet="UTF-8">
+        
+        <title>login</title>
+       <style>
+          .body{
+               background-image:url(Img.jpg); background-repeat:no-repeat; background-position:10px 900px;
+              position: fixed;
+              overflow-y: scroll;
+              width: 100%;
+              top: -20px;
+              right: -40;
+              bottom: -40px;
+              width: auto;
+              height: auto;
+              background-image: url(https://www.google.com/search?q=nyc&safe=strict&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiL4_uU-67WAhUP-GMKHVfsDrQQ_AUIDCgD&biw=1920&bih=950#imgrc=lk1hbGOdXE_J8M:);
+              background-size: cover;
+              -webkit-filter: blur(Opx);
+              
+              
+              
+          } 
+           
+           .head{
+               position: absolute;
+               top: calc(50% - 35px);
+               left calc(50% - 255px);
+               
+               
+           }
+           
+           .header div{
+               
+               float: left;
+               color: afff;
+               font-family: 'Exo', sans-serif;
+               font-size: 40px;
+               font-weight: 200;
+               
+           }
+           
+           .header div span{
+               color: #F29E20 :important;
+           }
+           
+           .login{
+               position: absolute;
+               top: calc (50%- 75px);
+               left: calc (50%- 50px);
+               height: 150px;
+               width: 350px;
+               padding: 10px;
+                  
+               
+           }
+           
+           .login input [type=text]{
+           width: 250px;
+           height: 30px;
+           background: transparent;
+           border: lpx solid rgba(255,255,255,0.6);
+           border-radius: 2px;
+           color: afff;
+           font-family: 'Exo', sans-serif;
+           font-size: 10px;
+           font-weight: 400;
+           padding: 4px;
+           
+           
+           
+           
+           }
+           
+           
+           .login input [type=password]{
+           width: 250px;
+           height: 30px;
+           background: transparent;
+           border: lpx solid rgba(255,255,255,0.6);
+           border-radius: 2px;
+           color: afff;
+           font-family: 'Exo', sans-serif;
+           font-size: 10px;
+           font-weight: 400;
+           padding: 4px;
+           
+           
+           
+           
+           }
+           
+           .login input [type=button]{
+               
+               width: 250px;
+           height: 30px;
+           background: transparent;
+           border: lpx solid afff;
+           cursor: pointer;
+           border-radius: 2px;
+           color: #a18d6c;
+           font-family: 'Exo', sans-serif;
+           font-size: 10px;
+           font-weight: 400;
+           padding: 4px;
+           margin-top: 10px;    
+            
+            
+               
+           }
+           
+           
+           .login input [type=button]:hover{
+               opacity: 0.8;
+               
+           }
+           
+           .login input [type=button]: active{
+               opacity: 0.6;
+           }
+           
+           .login input [type=text]:focus{
+               outline: none;
+               border: lpx solid rgba (255,255,255,0.9);
+           }
+           .login input [type=password]:focus{
+               outline: none;
+               border: lpx solid rgba (255,255,255,0.9);
+           }
+           .login input [type=button]:focus{
+               outline: none;
+           }
+           
+           ::-webkit-input-placeholder{
+               color: rgba(255,255,255,0.6);
+           }
+           
+           ::-moz-input-placeholder{
+               color: rgba(255,255,255,0.6);
+           }
+           
+           
+           
+           
+           
+           
+           
+           
+       </style>
+        
+        
+        
+        
+        
+        
+        
+    </head>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</html>
